@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Jsut me</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Small team</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Medium team</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">large team</button>
+
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="mt-2" align="center">Showing prices based on your staff size of 4    </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-secondary  text-light">BASIC</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">100</p>
+                                    <p>monthly, for 4 staff</p><b>$25 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-danger  text-light">BUILD</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">120</p>
+                                    <p>monthly, for 4 staff</p><b>$30 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-primary  text-light">ELEVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">160</p>
+                                    <p>monthly, for 4 staff</p><b>$40 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-dark text-light">INNOVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">180</p>
+                                    <p>monthly, for 4 staff</p><b>$45 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-outline-dark dropdown-toggle w-100" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Compare Packages
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5"><div>
+                        <p>Your timely Package</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Build</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$30 per staff member, monthly<br> x 4 staff member</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> <b>Total cost</b></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$120 billed monthly <br> (excl. GST)</b></p>
+                            </div>
+                        </div>
+    
+                        <hr>
+                        <button class="btn btn-danger w-100">Change Package</button>
+    
+                    </div></div>
+                </div>
+                
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="mt-2" align="center">Showing prices based on your staff size of 4    </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-secondary  text-light">BASIC</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">100</p>
+                                    <p>monthly, for 4 staff</p><b>$25 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-danger  text-light">BUILD</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">120</p>
+                                    <p>monthly, for 4 staff</p><b>$30 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-primary  text-light">ELEVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">160</p>
+                                    <p>monthly, for 4 staff</p><b>$40 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-dark text-light">INNOVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">180</p>
+                                    <p>monthly, for 4 staff</p><b>$45 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-outline-dark dropdown-toggle w-100" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Compare Packages
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5"><div>
+                        <p>Your timely Package</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Build</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$30 per staff member, monthly<br> x 4 staff member</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> <b>Total cost</b></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$120 billed monthly <br> (excl. GST)</b></p>
+                            </div>
+                        </div>
+    
+                        <hr>
+                        <button class="btn btn-danger w-100">Change Package</button>
+    
+                    </div></div>
+                </div>
+                
+            </div></div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="mt-2" align="center">Showing prices based on your staff size of 4    </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-secondary  text-light">BASIC</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">100</p>
+                                    <p>monthly, for 4 staff</p><b>$25 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-danger  text-light">BUILD</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">120</p>
+                                    <p>monthly, for 4 staff</p><b>$30 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-primary  text-light">ELEVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">160</p>
+                                    <p>monthly, for 4 staff</p><b>$40 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-dark text-light">INNOVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">180</p>
+                                    <p>monthly, for 4 staff</p><b>$45 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-outline-dark dropdown-toggle w-100" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Compare Packages
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5"><div>
+                        <p>Your timely Package</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Build</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$30 per staff member, monthly<br> x 4 staff member</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> <b>Total cost</b></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$120 billed monthly <br> (excl. GST)</b></p>
+                            </div>
+                        </div>
+    
+                        <hr>
+                        <button class="btn btn-danger w-100">Change Package</button>
+    
+                    </div></div>
+                </div>
+                
+            </div></div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="mt-2" align="center">Showing prices based on your staff size of 4    </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-secondary  text-light">BASIC</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">100</p>
+                                    <p>monthly, for 4 staff</p><b>$25 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-danger  text-light">BUILD</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">120</p>
+                                    <p>monthly, for 4 staff</p><b>$30 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-primary  text-light">ELEVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">160</p>
+                                    <p>monthly, for 4 staff</p><b>$40 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem; " align="center">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item bg-dark text-light">INNOVATE</li>
+                                <li class="list-group-item">Get started with the basic for managing your appointment
+                                    booking <br>
+                                    <p class="fs-1">180</p>
+                                    <p>monthly, for 4 staff</p><b>$45 per staff member</b>
+                                    <button class="btn btn-outline-danger w-75">Select plan</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-outline-dark dropdown-toggle w-100" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Compare Packages
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5"><div>
+                        <p>Your timely Package</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Build</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$30 per staff member, monthly<br> x 4 staff member</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> <b>Total cost</b></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-flex justify-content-end"> <b>$120 billed monthly <br> (excl. GST)</b></p>
+                            </div>
+                        </div>
+    
+                        <hr>
+                        <button class="btn btn-danger w-100">Change Package</button>
+    
+                    </div></div>
+                </div>
+                
+            </div></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
